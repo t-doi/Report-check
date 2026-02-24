@@ -4,10 +4,13 @@ python3 -m venv venv
 
 ③仮想環境を有効化
 source venv/bin/activate
-もしくはrun.sh
 
 →成功すると(venv:)と表示される．無効化するときはdeactivate
 
 ④必要なライブラリをインストール
 pip install PyMuPDF
+
+⑤実行する
+python3 annotate_reports3.py
+もしくはrun.sh
 
